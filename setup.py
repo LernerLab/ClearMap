@@ -14,7 +14,7 @@ with open('LICENSE.txt') as fptr:
     license = fptr.read()
 
 extensions = [Extension(
-        "ClearMap/Analysis/VoxelizationCode",
+        "ClearMap.Analysis.VoxelizationCode",
         ["ClearMap/Analysis/VoxelizationCode.pyx"],
         include_dirs=[numpy.get_include()],
     )
