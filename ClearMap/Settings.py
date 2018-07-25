@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Module to set *ClearMap's* internal parameter and paths to external programs.
 
